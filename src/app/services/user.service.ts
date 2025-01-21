@@ -13,7 +13,7 @@ export class UsuariosService {
   private _httpClient = inject(HttpClient);
 
   // 2. RUTA DE CONEXIÓN CON EL BACKEND ----------------------------------
-  private URL_USUARIOS = 'http://localhost:3000/usuarios/'; //ruta genérica
+  private URL_USUARIOS = 'http://localhost:3000/usuarios'; //ruta genérica
 
   // 3. HACER LAS PETICIONES ---------------------------------------------
 
